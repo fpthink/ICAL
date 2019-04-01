@@ -9,5 +9,5 @@ Pytorch 0.3
 ###### CUDA_VISIBLE_DEVICES=0 python noaug_cifar10.py -a preresnet --depth 110 --epochs 200 --schedule 100 150 --lam 10.0 --gamma 0.1 --wd 1e-4 --checkpoint checkpoints/cifar10_ICAL/noaug_exp
 
 ### Acknowledgement
-This code is heavily borrowed from [Pytorch-Classication] (https://github.com/bearpaw/pytorch-classification)
+This code is heavily borrowed from [Pytorch-Classication](https://github.com/bearpaw/pytorch-classification)
 
